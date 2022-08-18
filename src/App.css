@@ -1,5 +1,5 @@
 .App {
-  background-color: azure;
+  background-color: white;
   height: 100vh;
   display: grid;
   justify-content: center;
@@ -7,7 +7,6 @@
 }
 
 .coin {
-  /* animation: spin 2s linear infinite, 5s change infinite linear; */
   border-radius: 50%;
   background-size: cover;
 }
@@ -26,20 +25,3 @@
   border: 1px solid black;
   cursor: pointer;
 }
-
-/* @keyframes change {
-  0%,
-  50% {
-    background-image: url("../public/assets/Front.jpg");
-  }
-  50%,
-  100% {
-    background-image: url("../public/assets/Back.jpg");
-  }
-}
-
-@keyframes spin {
-  100% {
-    transform: rotateY(360deg);
-  }
-} */

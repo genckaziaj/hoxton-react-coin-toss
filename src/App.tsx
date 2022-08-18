@@ -25,7 +25,7 @@ function App() {
           changeImage();
         }}
       >
-        Flip Coin
+        Toss Coin
       </button>
     </div>
   );
