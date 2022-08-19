@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { CoinImage } from "./components/CoinImage";
+import { FlipButton } from "./components/FlipButton";
 import "./App.css";
 
 function App() {
@@ -16,17 +18,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className="coin">
-        <img className="image" src={image.src} />
-      </div>
-      <button
-        className="button"
-        onClick={() => {
-          changeImage();
-        }}
-      >
-        Toss Coin
-      </button>
+      <CoinImage image={image} />
+      <FlipButton changeImage={changeImage} />
     </div>
   );
 }
